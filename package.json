@@ -1,7 +1,7 @@
 {
   "name": "p2p-flipchart",
   "version": "0.1.0",
-  "description": "Build-it-yourself P2P Flipchart",
+  "description": "BIY (Build it yourself) a P2P Flipchart",
   "main": "index.js",
   "scripts": {
     "build": "browserify src/index.js -d -o public/index.bundle.js",
@@ -10,17 +10,15 @@
     "start:server": "serve public",
     "update:ipfs": "wget https://unpkg.com/ipfs/dist/index.js -O public/ipfs.bundle.js"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
   "dependencies": {
-    "browserify": "^14.5.0",
-    "d3": "^4.12.0",
-    "serve": "^6.4.1",
-    "watchify": "^3.9.0",
+    "browserify": "^16.2.2",
+    "d3": "^5.5.0",
+    "serve": "^9.4.0",
+    "watchify": "^3.11.0",
     "y-array": "^10.1.4",
     "y-indexeddb": "^8.1.9",
-    "y-ipfs-connector": "^2.1.2",
+    "y-ipfs-connector": "^2.3.0",
     "y-memory": "^8.0.9",
     "yjs": "^12.3.3"
   }
